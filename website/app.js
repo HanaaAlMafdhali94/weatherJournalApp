@@ -5,7 +5,7 @@ const generate = document.getElementById('generate');
 const date = document.getElementById('date');
 const temp = document.getElementById('temp');
 const content = document.getElementById('content');
-const apiKey = '1723d83953bc5e38fce03c3f461f533f';
+const apiKey = '***************************';
 const url = `http://api.openweathermap.org/data/2.5/weather?q=${zcode}&appid=${apiKey}&units=imperial`;
 const localHost = 'http://localhost:8000/weatherData';
 // Create a new date instance dynamically with JS
